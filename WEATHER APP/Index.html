@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="class-container">
+     <h1>Weather App</h1>
+     <p>Your Weather</p>
+     <p>Search Weather</p>
+    </div>
+    <!-- Grant location Container-->
+    <div class="grant-container">
+     <img src="./Images/location.jpg" height="50" width="50" >
+      <p>Grant Location Access</p>
+      <p>Allow Access to get Weather information</p>
+      <button class="btn" data-Buttons>Grant Access</button>
+    </div>
+    <div class="next-Container">
+     <input placeholder="Enter your City" data-Searchinput>
+     <button class="Btn"data- searchCity>
+         <img src="./Images/Search.jpg" height="10" width="10" loading="lazy">
+     </button>
+    </div>
+    <!--Loading Screen-->
+    <div class="Load -container">
+     <img src="./Images/Spinner-5.jpg" height="70" width="80" >
+     <p>Loading</p>
+    </div>
+     <!-- weather container-->
+     <div class="weather-container">
+         <p data-Cityname></p>
+       <img data-CountryIcon>
+        <p data- weatherInfo></p>
+        <p data- weatherdesc></p>
+     </div>
+     <div class="Card details">
+
+    <div class ="First Card">
+        <img src="./Images/Wind.jpg" height="50" width="50" data-WindImages>
+        <p>WindSpeed</p>
+    </div>
+    <div class ="Second Card">
+        <img src="./Images/Humidty.jpg" height="50" width="50" data-HumidtyImages>
+        <p>Humidity</p>
+    </div>
+    <div class ="Third Card">
+        <img src="./Images/Cloud.jpg"  height="50" width="50" data-CloudImages>
+        <p>Cloud</p>
+    </div>
+     </div>
+     
+</body>
+</html>
